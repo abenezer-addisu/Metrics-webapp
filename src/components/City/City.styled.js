@@ -1,4 +1,7 @@
 import styled from 'styled-components';
 
-export const CityWrapper = styled.div`
-`;
+// Remove the "export" keyword before the const declaration
+const CityWrapper = styled.div``;
+
+// Export the component as default
+export default CityWrapper;
